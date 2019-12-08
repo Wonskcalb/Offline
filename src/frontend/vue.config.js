@@ -14,7 +14,7 @@ module.exports = {
             .use(BundleTracker, [{filename: "../frontend/webpack-stats.json"}]);
 
         config.resolve.alias
-            .set("__STATIC__", "static")
+            .set("__STATIC__", "static");
 
         config.devServer
             .public("http://0.0.0.0:8080")
@@ -23,6 +23,6 @@ module.exports = {
             .hotOnly(true)
             .watchOptions({poll: 1000})
             .https(false)
-            .headers({"Access-Control-Allow-Origin": ["*"]})
+            .headers({"Access-Control-Allow-Origin": ["*"]});
     }
 };
