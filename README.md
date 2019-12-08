@@ -1,4 +1,6 @@
 # Offline
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ecb6f5188ca94ed4a6bd8224c251550e)](https://www.codacy.com/manual/Wonskcalb/Offline?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Wonskcalb/Offline&amp;utm_campaign=Badge_Grade)
+
 The only usable and open source app to allow time off management.
 
 ## Installation
